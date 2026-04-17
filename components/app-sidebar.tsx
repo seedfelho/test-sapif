@@ -21,15 +21,15 @@ const data = {
   navMain: [
     {
       title: "Itens retirados",
-      url: "#"
+      url: "/itensRetirados"
     },
     {
       title: "Onde Retirar",
-      url: "#"
+      url: "/ondeRetirar"
     },
     {
       title: "Login Administrador",
-      url: "#"
+      url: "/administrador"
     }
   ],
 }
