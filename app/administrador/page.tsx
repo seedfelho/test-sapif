@@ -1,10 +1,33 @@
-
+import { AppSidebar } from "@/components/app-sidebar"
+import {
+  SidebarInset,
+  SidebarProvider,
+  SidebarTrigger,
+} from "@/components/ui/sidebar"
 
 export default function Administrador(){
     return(
         <>
            
-                <h1>AAAOOOOOBAAAAAAAAAAAAAAAAAAAAAA CHEFE</h1>
+                <SidebarProvider
+                style={
+                    {
+                    "--sidebar-width": "19rem",
+                    } as React.CSSProperties
+                }
+            >
+            <AppSidebar />
+            <SidebarInset>
+                <header className="flex h-16 shrink-0 items-center gap-2 px-4">
+                <SidebarTrigger className="-ml-1" />
+                <div className="flex w-full max-w-sm gap-2">
+                    
+                    </div>
+                <></>
+                </header>
+                <div className="flex flex-1 flex-col gap-4 p-4 pt-0"></div>
+            </SidebarInset>
+            </SidebarProvider>
            
         </>
     )
