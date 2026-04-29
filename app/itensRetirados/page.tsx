@@ -33,15 +33,6 @@ export default function OndeRetirar(){
                     <Itens src="https://t3.ftcdn.net/jpg/02/56/82/22/240_F_256822296_SIHqcWDO7jZEVxGfy8xQGKWBZBKn9yzR.jpg" alt="primeira imagem"/>
                     <Itens src="https://t3.ftcdn.net/jpg/02/98/00/02/240_F_298000277_BGQ5Xde9HKvc3aRji8PoBHWV14RDBxxC.jpg" alt="primeira imagem"/>
                     <Itens src="https://t4.ftcdn.net/jpg/02/82/75/31/240_F_282753146_V6ZHcruFiIauT4ecZyf9a2J066LD2K9N.jpg" alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/07/01/57/17/240_F_701571731_Ygf3PIUHzRoP9OHvpSznr2YnbtiOWj8I.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
-                    <Itens src="https://t4.ftcdn.net/jpg/03/23/82/99/240_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg"alt="primeira imagem"/>
                 </div>
                 </div>
             </SidebarInset>

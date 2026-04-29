@@ -21,7 +21,7 @@ export default function Page() {
       <AppSidebar />
       <SidebarInset>
         <header className="flex h-16 shrink-0 items-center gap-2 px-4">
-          <SidebarTrigger className="-ml-1" />
+          <SidebarTrigger  className="-ml-1" />
           <div className="flex w-full max-w-sm gap-2">
             <Input type="search" placeholder="Buscar..." />
             </div>
