@@ -1,17 +1,12 @@
-import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {
   Card,
-  CardAction,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
+  CardFooter
 } from "@/components/ui/card"
 
 type ImagemProps = {
   src: string;
-   alt: string;
+  alt: string;
 };
 
 export function Itens({src, alt}: ImagemProps) {
