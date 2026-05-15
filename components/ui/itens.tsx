@@ -3,6 +3,13 @@ import {
   Card,
   CardFooter
 } from "@/components/ui/card"
+import Link from "next/link";
+import { AppSidebar } from "@/components/app-sidebar"
+import {
+  SidebarInset,
+  SidebarProvider,
+  SidebarTrigger,
+} from "@/components/ui/sidebar"
 
 type ImagemProps = {
   src: string;
@@ -11,6 +18,15 @@ type ImagemProps = {
 
 export function Itens({src, alt}: ImagemProps) {
   return (
+    <SidebarProvider
+      style={
+        {
+          "--sidebar-width": "19rem",
+        } as React.CSSProperties
+      }
+    >
+      <AppSidebar />
+      <SidebarInset></SidebarInset>
     <Card className="relative mx-auto w-full max-w-sm pt-0">
       <div className="absolute "/>
       <img
@@ -19,37 +35,8 @@ export function Itens({src, alt}: ImagemProps) {
         className="relative aspect-video w-full object-cover"
       />
       <CardFooter>
-        <Button className="w-full">Mais Informações</Button>
+        <Link className="w-full"href="/item" ><Button className="w-full">Mais Informações</Button></Link>
       </CardFooter>
     </Card>
   )
 }
-
-
-
-
-// import { Button } from "@/components/ui/button";
-// import Link from "next/link";
-// import { Inter } from "next/font/google";
-
-// const inter = Inter({
-//   subsets: ["latin"],
-//   weight: ["400", "600", "700"],
-// });
-// type ImagemProps = {
-//   src: string;
-//   alt: string;
-// };
-
-// export function Itens({src, alt}: ImagemProps){
-//     return(
-//         <section className="flex flex-col items-center justify-center rounded-xl size-100 gap-1 bg-muted/50">
-//             <img 
-//             src={src} 
-//             alt={alt}
-//             className="aspect-video rounded-xl size-75 "
-//             />
-//             <Button className={`${inter.className} font-semibold bg-cyan-700`} asChild><Link href="/item" >Detalhes</Link></Button>
-//         </section>
-//     )
-// }

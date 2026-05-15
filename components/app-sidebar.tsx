@@ -9,12 +9,9 @@ import {
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
-  SidebarMenuItem,
-  SidebarMenuSub,
-  SidebarMenuSubButton,
-  SidebarMenuSubItem,
+  SidebarMenuItem
 } from "@/components/ui/sidebar"
-import { GalleryVerticalEndIcon } from "lucide-react"
+import { PackageOpen } from "lucide-react"
 
 // This is sample data.
 const data = {
@@ -29,7 +26,7 @@ const data = {
     },
     {
       title: "Login Administrador",
-      url: "/administrador"
+      url: "/loginAdm"
     }
   ],
 }
@@ -43,11 +40,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             <SidebarMenuButton size="lg" asChild>
               <a href="#">
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
-                  <GalleryVerticalEndIcon className="size-4" />
+                  <PackageOpen className="size-4" />
                 </div>
                 <div className="flex flex-col gap-0.5 leading-none">
-                  <span className="font-medium">Documentation</span>
-                  <span className="">v1.0.0</span>
+                  <span className="font-medium">SAPIF</span>
                 </div>
               </a>
             </SidebarMenuButton>
