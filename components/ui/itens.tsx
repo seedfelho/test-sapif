@@ -8,7 +8,6 @@ import { AppSidebar } from "@/components/app-sidebar"
 import {
   SidebarInset,
   SidebarProvider,
-  SidebarTrigger,
 } from "@/components/ui/sidebar"
 
 type ImagemProps = {
@@ -18,25 +17,25 @@ type ImagemProps = {
 
 export function Itens({src, alt}: ImagemProps) {
   return (
-    <SidebarProvider
-      style={
-        {
+    <>
+      <SidebarProvider
+        style={{
           "--sidebar-width": "19rem",
-        } as React.CSSProperties
-      }
-    >
+        } as React.CSSProperties}/>
       <AppSidebar />
       <SidebarInset></SidebarInset>
-    <Card className="relative mx-auto w-full max-w-sm pt-0">
-      <div className="absolute "/>
-      <img
-        src={src}
-        alt={alt}
-        className="relative aspect-video w-full object-cover"
-      />
-      <CardFooter>
-        <Link className="w-full"href="/item" ><Button className="w-full">Mais Informações</Button></Link>
-      </CardFooter>
-    </Card>
+      <Card className="relative mx-auto w-full max-w-sm pt-0">
+          <div className="absolute " />
+          <img
+            src={src}
+            alt={alt}
+            className="relative aspect-video w-full object-cover" />
+          <CardFooter>
+            <Link className="w-full" href="/item"><Button className="w-full">Mais Informações</Button></Link>
+          </CardFooter>
+        </Card>
+    </>
   )
 }
+
+

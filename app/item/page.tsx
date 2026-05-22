@@ -18,7 +18,7 @@ export default function Item({src, alt}: ImagemProps){
             
             <div className="flex justify-center items-center h-screen">
                 <img 
-                src={"https://t3.ftcdn.net/jpg/02/56/82/22/240_F_256822296_SIHqcWDO7jZEVxGfy8xQGKWBZBKn9yzR.jpg"} 
+                src={src} 
                 alt={alt}
                 className="aspect-video rounded-xl size-90"
                 />
