@@ -25,7 +25,7 @@ export default function Item({src, alt}: ImagemProps){
                 <section className="flex flex-col gap-4 p-4 pt-0">
                     
                     <h1>TEXTO DA DESCRIÇÃO</h1>
-                    <Button className={`${inter.className} font-semibold bg-cyan-700`} asChild><Link href="./ondeRetirar" >Onde Retirar</Link></Button>
+                    <Button className={`${inter.className} font-semibold bg-cyan-700`}><Link href="./ondeRetirar" >Onde Retirar</Link></Button>
                 </section>
             </div>
         </>
