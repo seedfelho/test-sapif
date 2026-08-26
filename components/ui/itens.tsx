@@ -18,12 +18,6 @@ type ImagemProps = {
 export function Itens({src, alt}: ImagemProps) {
   return (
     <>
-      <SidebarProvider
-        style={{
-          "--sidebar-width": "19rem",
-        } as React.CSSProperties}/>
-      <AppSidebar />
-      <SidebarInset></SidebarInset>
       <Card className="relative mx-auto w-full max-w-sm pt-0">
           <div className="absolute " />
           <img
